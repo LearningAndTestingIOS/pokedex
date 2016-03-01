@@ -263,6 +263,7 @@
                                             </mask>
                                         </variation>
                                         <connections>
+                                            <action selector="backBtnPressed:" destination="UTC-nZ-yKk" eventType="touchUpInside" id="bOw-rZ-Jyy"/>
                                             <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1df-sL-hpb"/>
                                         </connections>
                                     </button>
@@ -498,7 +499,16 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="currentEvoImg" destination="jsO-K1-3ck" id="NIw-kr-Udb"/>
+                        <outlet property="defenseLbl" destination="NqJ-wg-vA3" id="2rM-9O-npW"/>
+                        <outlet property="descriptionLbl" destination="pV0-iz-nBr" id="rxI-mH-Cyq"/>
+                        <outlet property="evoLbl" destination="UEP-0C-li9" id="6fT-5N-1pG"/>
+                        <outlet property="heightLbl" destination="nVV-NO-MKx" id="OtP-tE-Apm"/>
+                        <outlet property="mainImg" destination="6rW-gS-CIP" id="EgV-9N-hZH"/>
                         <outlet property="nameLbl" destination="sDi-Nh-PWV" id="74J-tv-0lO"/>
+                        <outlet property="nextEvoImg" destination="ptc-MA-Dqc" id="xkf-Ox-qh5"/>
+                        <outlet property="pokedexLbl" destination="gqo-On-J3u" id="Xy0-AN-LN8"/>
+                        <outlet property="typeLbl" destination="kJr-tz-9oj" id="Owf-Ce-dEs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ecX-Fm-kWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
